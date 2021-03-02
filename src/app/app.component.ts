@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'onlinePlatform';
+  searchName = '';
+  isLogin = true;
+  constructor() { }
+
+  // tslint:disable-next-line:use-lifecycle-interface
+  ngOnInit() {
+  }
+  search() {
+
+  }
+
+  updateLogin() {
+
+  }
 }
